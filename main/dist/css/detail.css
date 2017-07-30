@@ -1,0 +1,70 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: #f5f5f9;
+}
+.container{
+	width:100%;
+	margin:10px auto;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	padding-right:5px;
+	padding-left:10px;
+}
+.text-muted{
+  margin-top:9px;
+}
+li a{
+	color:#9966ff;
+}	
+.main{
+	max-width: 800px;
+  	margin: 10px auto;
+}
+.info{
+	margin-bottom:20px;
+	margin-right:5px;
+	padding:10px 15px;
+	box-shadow: 4px 4px 4px #dedee0;
+	background-color: #fff;
+}
+.info div{
+	margin-bottom:5px;
+}
+.info .author{
+	color:#aeaeae;
+}
+.info .summary{
+	line-height: 1.5em;
+	color:#969696;
+	cursor: pointer;
+}
+button{
+	position: relative;
+	left:50%;
+	margin-left:-80px;
+    width:160px;
+    height:40px;
+    line-height:40px;
+    border-radius: 10px;
+    border:none;
+    color:#fff;
+    box-shadow: 2px 2px 2px #c3c3c6;
+    outline: none;
+    color:#fff;
+    font-size: 19px;
+}
+.borrow ,.back{
+    background-color:#9966ff;
+}
+.wait{
+    background-color:#a1a1a1;
+}
+.cyan{
+  color:#33ccff;
+}
+.yellow{
+  color:#ffcc66;
+}

@@ -1,0 +1,58 @@
+html {
+  font-size: 14px;
+  font-size: 3.9vw;
+}
+header {
+  position: relative;
+  padding: 10px 0;
+  border-bottom: 1px #ccc solid;
+}
+header .admin-name {
+  position: absolute;
+  font-size: 16 0.03416rem;
+  font-weight: bold;
+  left: 10px;
+  top: 3px;
+}
+header .title{
+  display: block;
+  font-size: 17px;
+  text-align: center;
+}
+header .login-hint {
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 22px;
+}
+#content {
+  padding:10px;
+  position: relative;
+  overflow: hidden;
+}
+#content .wrap{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  margin-top:10px;
+}
+#content .wrap li{
+  cursor: pointer;
+  width: 145px;
+  height: 145px;
+  background: #ae85ff;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 15px;
+}
+#content .wrap li img{
+  width:40px;
+  height:40px;
+}
+#content .wrap li p{
+  margin-top:10px;
+}

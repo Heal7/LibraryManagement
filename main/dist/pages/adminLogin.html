@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,height=device-height">
+	<title>图书管理系统</title>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+	<script src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
+	<link rel="stylesheet" href="/css/adminLogin.css"/>
+</head>
+<body>
+
+	<div class="container">
+		<div class="header clearfix">
+			<nav>
+				<ul class="nav nav-tabs pull-right">
+					<li role="presentation"><a href="/pages/login.html">学生</a></li>
+					<li role="presentation" class="active"><a href="/pages/adminLogin.html">管理员</a></li>
+				</ul>
+			</nav>
+			<h3 class="text-muted">图书管理系统</h3>
+		</div>
+
+		<div class="form-login">
+			<h2 class="form-login-heading">登录</h2>
+			<input type="text" id="adminName" class="form-control" placeholder="管理员账号" required autofocus>
+
+			<input type="password" id="adminPwd" class="form-control" placeholder="管理员密码" required>
+			<button class="btn btn-lg btn-primary btn-block admin-login">管理员登录</button>
+		<div>
+	</div>
+
+	<script src="/js/initLeanCloud.js"></script>
+	<script src="/js/utils.js"></script>
+	<script src="/js/adminLogin.js"></script>
+</body>
+</html>

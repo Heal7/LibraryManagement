@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,height=device-height">
+	<title>查询用户</title>
+	<link rel="stylesheet" href="/css/init.css"/>
+	<link rel="stylesheet" href="/css/adminUsers.css"/>
+</head>
+<body>
+	<header>
+		<span class="admin-name"></span>
+		<span class="title">移动图书馆</span>
+		<span class="login-hint">您的身份为管理员</span>
+		<button class="logout">退出</button>
+	</header>
+
+	<section class="search-box">
+		<span>学号查询</span>
+		<input class="id-input" type="text" />
+	</section>
+
+	<ul class="user-box"></ul>
+
+	<section class="info-box opacity">
+		<div class="user-info"></div>
+	</section>
+
+	<script src="https://cdn1.lncld.net/static/js/av-min-1.2.1.js"></script>
+	<script src="/js/initLeanCloud.js"></script>
+	<script src="/js/reuseMethods.js"></script>
+	<script src="/js/utils.js"></script>
+  	<script src="/js/adminUsers.js"></script>
+</body>
+</html>

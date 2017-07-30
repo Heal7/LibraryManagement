@@ -1,0 +1,97 @@
+.search-box{
+	margin:10px auto 0;
+	display: flex;
+}
+.search-box span{
+	display: inline-block;
+	margin-right:10px;
+	background-color:#ae85ff;
+	margin-top:2px;
+  	height:40px;
+	line-height: 40px;
+	padding-right:10px;
+	padding-left:10px;
+  	border-radius: 5px;
+  	color:#fff;
+  	cursor: pointer;
+}
+.search-box input{
+	width:80%;
+	height:45px;
+	line-height: 45px;
+  	padding-left:10px;
+  	border-radius: 10px;
+  	border:1px solid #ccc;
+  	outline: none;
+}
+.tag-box {
+	width:91%;
+	max-width:700px;
+	margin-top:10px;
+	list-style: none;
+	padding:10px 0 0 10px;
+	box-shadow: 4px 4px 4px #dedee0;
+	background-color: #fff;
+	border-radius: 10px;
+	display: none;
+	position: absolute;
+}
+.tag-box li{
+	display: inline-block;
+	margin-right: 10px;
+	margin-bottom:12px;
+	background-color: #f2f2f2;
+  	color:#9866ff;
+  	padding:6px 10px;
+  	border-radius: 5px;
+}
+.up{
+  text-align: center;
+}
+.up img{
+  width:25px;
+  height:25px;
+  margin:0 auto;
+  margin-bottom: 10px;
+}
+.book-box{
+	width:98%;
+	max-width:700px;
+}
+.book-box>div{
+	text-align: center;
+	margin:20px auto;
+}
+.book-box li{
+	margin:10px 0;
+	padding:15px;
+	background-color: #fff;
+	box-shadow: 4px 4px 4px #dedee0;
+	font-size: 14px;
+	cursor: pointer;
+}
+.book-box .name{
+	font-size: 17px;
+}
+.book-box .author{
+	color:#aeaeae;
+	margin-top:10px;
+}
+.book-box img{
+	float:right;
+	padding:5px 10px;
+	margin-top:-30px;
+	border:1px solid #bcbcbc;
+  	border-radius: 10px;
+}
+.book-box .status{
+	float:right;
+	margin-top:-19px;
+	/*margin-right:20px;*/
+}
+.cyan{
+  color:#33ccff;
+}
+.yellow{
+  color:#ffcc66;
+}

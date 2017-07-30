@@ -1,0 +1,30 @@
+.main{
+	margin:10px auto;
+	padding-right:10px;
+}
+.main div{
+	text-align: center;
+	margin-top:30px;
+}
+.record-list{
+	width:100%;
+	display: block;
+	padding:12px 0 0;
+	background-color: #fff;
+	margin-bottom:10px;
+	box-shadow: 4px 4px 4px #dedee0;
+	font-size:14px;
+}
+.record-list tr{
+	text-align: center;
+	height:32px;
+}
+.record-list tr td:first-child{
+	width:48%;
+}
+.record-list .detail{
+	display: block;
+	float:right;
+	margin-right:-10px;
+	color:#6acfff;
+}
